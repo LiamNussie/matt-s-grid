@@ -1,0 +1,25 @@
+.App {
+    .mitem {
+        svg {
+            margin-right: .4rem;
+            transform: scale(.8);
+            transition: 250ms ease;
+        }
+
+        &:hover {
+            svg {
+                .one {
+                    fill: #4DA96C;
+                }
+                .two {
+                    stroke: #4DA96C;
+                }
+                .path {
+                    fill: #4DA96C;
+                    stroke: #4DA96C;
+                }
+            }
+        }
+    }
+    
+}
